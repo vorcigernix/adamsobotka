@@ -38,7 +38,7 @@ export default function Home() {
                 </p>
                 <Mint address="0x2953399124F0cBB46d2CbACD8A89cF0599974963" id="28868293704924423786108933622408740998705747173761726793052095567437093666916" />
                 <a
-                  class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mr-3 p-2"
+                  class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mr-3 p-2 border-0 focus:outline-none transition-colors duration-500"
                   href="resume.pdf"
                   download
                 >
