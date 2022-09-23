@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@700&display=swap');
+
+body {
+    background: #2563eb url(https://source.unsplash.com/0ktfnV_kT2Q/2400x1823) center / cover no-repeat fixed;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+main {
+    background: linear-gradient(-45deg, rgba(238, 119, 82, 0.8), rgba(231, 60, 126, 0.8), rgba(35, 166, 213, 0.8), rgba(35, 213, 171, 0.8), rgba(35, 166, 213, 0.8), rgba(231, 60, 126, 0.8), rgba(238, 119, 82, 0.8));
+    background-size: 400% 400%;
+    -webkit-animation: gradient-animation 30s ease infinite;
+    animation: gradient-animation 30s ease infinite;
+
+}
+
+@-webkit-keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.pill {
+    background: linear-gradient(-45deg, rgba(238, 119, 82, 0.8), rgba(231, 60, 126, 0.8), rgba(35, 166, 213, 0.8), rgba(35, 213, 171, 0.8));
+    background-size: 400% 400%;
+    -webkit-animation: gradient-animation 15s ease infinite;
+    animation: gradient-animation 15s ease infinite;
+}
+
+.backdrop-blur-lg {
+    backdrop-filter: blur(16px);
+}
+
+.title-font {
+    font-family: 'Mulish', serif;
+}

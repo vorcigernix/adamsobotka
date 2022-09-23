@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "npm:add": "deno run -A https://esm.sh/v95 add",
+    "npm:update": "deno run -A https://esm.sh/v95 update",
+    "npm:remove": "deno run -A https://esm.sh/v95 remove"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}
