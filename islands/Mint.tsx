@@ -14,9 +14,6 @@ declare global {
 }
 
 export default function Counter(props: AddressProps) {
-  //const [count, setCount] = useState(props.address);
-  //const [account, setAccount] = useState();
-
   async function buyNFT() {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     await provider.send("eth_requestAccounts", []);
@@ -26,20 +23,21 @@ export default function Counter(props: AddressProps) {
       contractABI,
       signer,
     );
-    //await nftContract.connect(signer);
-    // @ts-ignore: abi function
-    const transaction = await nftContract.mint(
+    //@ts-ignore: abi function
+    const transaction = await nftContract.safeTransferFrom(
+      props.address,
       signer.getAddress(),
       props.id,
-      ethers.BigNumber.from(1),
-      "",
+      1,
+      [],
     );
+
     console.log(transaction);
   }
 
   return (
     <button
-      class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mr-3 p-2 border-0 focus:outline-none "
+      class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mr-3 p-2 border-0 focus:outline-none transition-colors duration-500 "
       onClick={buyNFT}
     >
       <svg
