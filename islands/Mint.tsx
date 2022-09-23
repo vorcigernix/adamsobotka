@@ -9,12 +9,26 @@ interface AddressProps {
 
 declare global {
   interface Window {
-    ethereum: string;
+    ethereum: any;
   }
 }
 
 export default function Counter(props: AddressProps) {
   async function buyNFT() {
+    await window.ethereum.request({
+      method: "wallet_addEthereumChain",
+      params: [{
+        chainId: ethers.utils.hexValue(137), //"0x89",
+        rpcUrls: ["https://polygon-rpc.com/"],
+        chainName: "Matic Mainnet",
+        nativeCurrency: {
+          name: "MATIC", 
+          symbol: "MATIC",
+          decimals: 18,
+        },
+        blockExplorerUrls: ["https://polygonscan.com/"],
+      }],
+    });
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     await provider.send("eth_requestAccounts", []);
     const signer = provider.getSigner();
