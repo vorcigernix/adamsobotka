@@ -37,7 +37,7 @@ export function Footer() {
               </path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-100" href="https://twitter.com/home">
+          <a class="ml-3 text-gray-100" href="https://twitter.com/vorcigernix">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

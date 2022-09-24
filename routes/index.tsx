@@ -8,11 +8,11 @@ export default function Home() {
         <div class="container px-5 pt-12 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="flex flex-col sm:flex-row mt-10  bg-gradient-to-b from-[#1e3b8ac5] to-[#1e3b8a3f] text-[#fff] backdrop-blur-lg border-[1px] border-solid border-white border-opacity-20 rounded-2xl shadow-[rgba(0,0,0,0.70)] shadow-2xl">
-              <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8 py-4 rounded-l-2xl sm:bg-[rgba(0,0,0,0.20)]">
+              <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8 py-4 rounded-l-2xl sm:bg-[#b4b4b433]">
                 <div class="w-28 h-28 rounded-full inline-flex items-center justify-center  ">
                   <img
                     alt="content"
-                    class="object-cover object-center rounded-full "
+                    class="object-cover object-center rounded-full w-28 h-28"
                     src="pixelportrait.png"
                   />
                 </div>
@@ -195,53 +195,7 @@ export default function Home() {
                         Strategy Execution
                       </li>
                     </ul>
-                    <div class=" items-center flex-wrap hidden ">
-                      <a class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center md:mb-2 lg:mb-0">
-                        Learn More
-                        <svg
-                          class="w-4 h-4 ml-2"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          fill="none"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <path d="M5 12h14"></path>
-                          <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                      </a>
-                      <span class="text-gray-200 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-800">
-                        <svg
-                          class="w-4 h-4 mr-1"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          fill="none"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z">
-                          </path>
-                          <circle cx="12" cy="12" r="3"></circle>
-                        </svg>1.2K
-                      </span>
-                      <span class="text-gray-200 inline-flex items-center leading-none text-sm">
-                        <svg
-                          class="w-4 h-4 mr-1"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          fill="none"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                          </path>
-                        </svg>6
-                      </span>
-                    </div>
-                  </div>
+                   </div>
                 </div>
               </div>
               <div class="p-4 w-full md:w-2/3 ">
@@ -278,7 +232,7 @@ export default function Home() {
                               </p>
                               <a
                                 class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
-                                href="https://developerdao.com/"
+                                href="https://developerdao.com/" alt="Developer DAO"
                               >
                                 Learn More
                                 <svg
@@ -318,7 +272,7 @@ export default function Home() {
                               <p class="leading-normal mt-3">Token gating</p>
                               <a
                                 class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
-                                href="https://zitrone.pages.dev/"
+                                href="https://zitrone.pages.dev/" alt="Zitrone Meeting platform"
                               >
                                 Learn More
                                 <svg
@@ -362,6 +316,7 @@ export default function Home() {
                               <a
                                 class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
                                 href="https://emplifi.io"
+                                alt="Emplifi CX Platform"
                               >
                                 Learn More
                                 <svg
@@ -414,6 +369,7 @@ export default function Home() {
                               <a
                                 class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
                                 href="https://socialbakers.com"
+                                alt="Socialbakers Social Marketing platform"
                               >
                                 Learn More
                                 <svg
@@ -457,6 +413,7 @@ export default function Home() {
                               <a
                                 class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
                                 href="https://2fresh.cz"
+                                alt="2Fresh, designers of change"
                               >
                                 Learn More
                                 <svg

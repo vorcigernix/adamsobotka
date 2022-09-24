@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@700&display=swap');
 
 body {
-    background: #2563eb url(https://source.unsplash.com/0ktfnV_kT2Q/2400x1823) center / cover no-repeat fixed;
+    background: #2563eb url(https://images.unsplash.com/photo-1485163819542-13adeb5e0068?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80) center / cover no-repeat fixed;
     font-family: 'Inter', sans-serif;
 
 
 }
+
 
 @-webkit-keyframes gradient-animation {
     0% {
