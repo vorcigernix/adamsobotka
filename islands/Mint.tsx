@@ -1,4 +1,3 @@
-import { useState } from "preact/hooks";
 import { ethers } from "ethers";
 import contractABI from "../components/abi.json" assert { type: "json" };
 
@@ -18,7 +17,7 @@ export default function Counter(props: AddressProps) {
     await window.ethereum.request({
       method: "wallet_addEthereumChain",
       params: [{
-        chainId: ethers.utils.hexValue(137), //"0x89",
+        chainId: ethers.utils.hexValue(137), 
         rpcUrls: ["https://polygon-rpc.com/"],
         chainName: "Matic Mainnet",
         nativeCurrency: {
@@ -51,8 +50,9 @@ export default function Counter(props: AddressProps) {
 
   return (
     <button
-      class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mr-3 p-2 border-0 focus:outline-none transition-colors duration-500 "
+      class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mr-3 p-2 border-0 focus:outline-none transition-colors duration-500 disabled:opacity-10 disabled:cursor-text"
       onClick={buyNFT}
+      disabled={!window.ethereum}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

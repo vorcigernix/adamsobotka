@@ -8,7 +8,7 @@ export default function Home() {
         <div class="container px-5 pt-12 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="flex flex-col sm:flex-row mt-10  bg-gradient-to-b from-[#1e3b8ac5] to-[#1e3b8a3f] text-[#fff] backdrop-blur-lg border-[1px] border-solid border-white border-opacity-20 rounded-2xl shadow-[rgba(0,0,0,0.70)] shadow-2xl">
-              <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8 rounded-l-2xl bg-[rgba(0,0,0,0.20)]">
+              <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8 py-4 rounded-l-2xl sm:bg-[rgba(0,0,0,0.20)]">
                 <div class="w-28 h-28 rounded-full inline-flex items-center justify-center  ">
                   <img
                     alt="content"
@@ -20,13 +20,13 @@ export default function Home() {
                   <h2 class="font-bold title-font mt-4 text-3xl text-white">
                     ADAM SOBOTKA
                   </h2>
-                  <div class="w-12 h-1 rounded mt-2 mb-4 pill"></div>
+                  <div class="w-12 h-1 rounded mt-2 mb-4 anim"></div>
                   <p class="text-base text-gray-300">
                     Software Development Manager
                   </p>
                 </div>
               </div>
-              <div class="sm:w-2/3 sm:px-8 sm:py-8 sm:border-l border-solid border-white border-opacity-20  mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+              <div class="sm:w-2/3 sm:px-8 px-4 sm:py-8 py-4 sm:border-l border-solid border-white border-opacity-20  mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p class="leading-normal mt-3 mb-4">
                   I am a seasoned, value oriented leader with a passion for
                   building and improving product development organizations. I
@@ -74,7 +74,7 @@ export default function Home() {
                     <h1 class="title-font text-xl font-bold text-white mb-3">
                       Skills
                     </h1>
-                    <div class="w-12 h-1 rounded mt-2 mb-4 pill"></div>
+                    <div class="w-12 h-1 rounded mt-2 mb-4 anim"></div>
                     <ul class="leading-normal mt-3 mb-3">
                       <li class="pb-1 pt-6 hover:text-white flex">
                         <svg
@@ -250,7 +250,7 @@ export default function Home() {
                     <h1 class="title-font text-xl font-bold mb-3">
                       Experience
                     </h1>
-                    <div class="w-12 h-1 rounded mt-2 mb-4 pill"></div>
+                    <div class="w-12 h-1 rounded mt-2 mb-4 anim"></div>
                     <article class="text-gray-200 body-font overflow-hidden">
                       <div class="container px-5 py-2 mx-auto">
                         <div class="-my-8 divide-y-1 divide-[rgba(255,255,255,0.5)]">
@@ -277,7 +277,7 @@ export default function Home() {
                                 Mentoring fullstack web3 development
                               </p>
                               <a
-                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4"
+                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
                                 href="https://developerdao.com/"
                               >
                                 Learn More
@@ -317,7 +317,7 @@ export default function Home() {
                               </p>
                               <p class="leading-normal mt-3">Token gating</p>
                               <a
-                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4"
+                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
                                 href="https://zitrone.pages.dev/"
                               >
                                 Learn More
@@ -360,7 +360,7 @@ export default function Home() {
                                 Personally led key integration initiatives
                               </p>
                               <a
-                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4"
+                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
                                 href="https://emplifi.io"
                               >
                                 Learn More
@@ -412,7 +412,7 @@ export default function Home() {
                               </p>
 
                               <a
-                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4"
+                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
                                 href="https://socialbakers.com"
                               >
                                 Learn More
@@ -455,7 +455,7 @@ export default function Home() {
                                 Created and implemented Agile budgeting system
                               </p>
                               <a
-                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4"
+                                class="text-[#bae6fd] hover:text-[#0ea5e9] inline-flex items-center mt-4 border-0 focus:outline-none transition-colors duration-500"
                                 href="https://2fresh.cz"
                               >
                                 Learn More
